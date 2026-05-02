@@ -1,0 +1,6 @@
+2026-05-02 10:22:00 | INFO     | __main__ | Log file: /path/to/trading_bot/logs/trading_bot.log
+2026-05-02 10:22:00 | INFO     | bot.orders | Placing SELL LIMIT order: symbol=BTCUSDT qty=0.001
+2026-05-02 10:22:00 | INFO     | bot.orders | Limit price=95000 timeInForce=GTC
+2026-05-02 10:22:00 | INFO     | bot.client | API POST /fapi/v1/order
+2026-05-02 10:22:01 | INFO     | bot.client | API POST /fapi/v1/order succeeded (HTTP 200)
+2026-05-02 10:22:01 | INFO     | __main__ | Order success orderId=987654321 status=NEW

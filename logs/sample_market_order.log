@@ -1,0 +1,5 @@
+2026-05-02 10:15:01 | INFO     | __main__ | Log file: /path/to/trading_bot/logs/trading_bot.log
+2026-05-02 10:15:01 | INFO     | bot.orders | Placing BUY MARKET order: symbol=BTCUSDT qty=0.001
+2026-05-02 10:15:01 | INFO     | bot.client | API POST /fapi/v1/order
+2026-05-02 10:15:02 | INFO     | bot.client | API POST /fapi/v1/order succeeded (HTTP 200)
+2026-05-02 10:15:02 | INFO     | __main__ | Order success orderId=123456789 status=FILLED
