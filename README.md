@@ -106,7 +106,3 @@ trading_bot/
 - **Symbol / filters / min notional** follow Binance rules; the app validates shape and positivity of quantity/price but does not duplicate full exchange filter tables.
 - **LIMIT** orders require `--price`; **MARKET** orders must not include `--price`.
 - Exit codes: `0` success, `2` validation, `3` missing credentials, `4` API/network `BinanceAPIError`, `5` unexpected error.
-
-## License
-
-Provided as a hiring task sample; use at your own risk on testnet only.
